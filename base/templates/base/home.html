@@ -1,0 +1,259 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banuelos Jr., Jonray C. </title>
+    <link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-md-3">
+
+                <div class="box-shadow card card card-body h-100  border-info " id="profile-wrapper">
+
+                    <img id="profile-pic" src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/468842976_2771066636400773_5169995611926458366_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFnWp9HhM8S2Ku6UlLbAuj0UBejEt1R5B5QF6MS3VHkHs7fO1i812Vf6B3TO58QBnlyprdPQaoKHouTdTxnXk3F&_nc_ohc=KoLz1-ReS3UQ7kNvgH3rJ9B&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&_nc_gid=AQISiIRo7PSneW19lncI79m&oh=00_AYBpi_VEb-BfInufUWxj8ARtuqXf239SncC5QrvLzmIdcA&oe=67533540">
+                    <hr>
+                    <h4>Hi I'm Jonray!</h4>
+                    <p>I love coding, a bit lazy, and loved to play games and watch anime</p>                               
+                </div>
+
+            </div>
+
+
+            <div class="col-md-9">
+                <div class="box-shadow card card card-body h-100  border-info">
+                    <h4><u>Reasons why I wanna become a developer</u></h4>
+                    <hr>
+                    <p>Ever since I was a kid I have always loved to play games, I played alot like 24/7 of playing, That's why I have several knowledge on how a game should be since i have played different types of games, RPG, Gacha, Survival,FPS and many more.</p>
+
+                    <p>Before I knew it some games I played are becoming a bit boring nowadays because it's repitative, that's it came to me, why can't just make my own game? and that's where my life took a turn and persue becoming a developer.</p>
+
+
+                    <ul class="social-links">
+
+                        <a href="https://www.facebook.com/jonray.c.banuelos"><img src="https://static.vecteezy.com/system/resources/thumbnails/047/316/307/small/small-f-icon-vector.jpg" style="width:40px;height:40px;"></a>
+                        <a href="https://x.com/ForgetfulJack"><img src="https://www.svgrepo.com/show/11841/twitter.svg" style="width:40px;height:40px;"></a>
+                        <a href="https://www.youtube.com/@jonraybanuelos7549"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShPklrCqq1ib26KUXDNyREJNJGiFRjqE-aNg&s" style="width:40px;height:40px;"></a>
+                        <a href="https://discordapp.com/users/992483412331995146"><img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6ac3c481f273141736_icon_clyde_black_RGB.png" style="width:40px;height:40px;"></a>
+                        <a href="https://www.hoyolab.com/accountCenter/postList?id=189473576"><img src="https://ugc.production.linktr.ee/nIQ3whsPS1yovoFA2hv0_Hoyo.png" style="width:60px;height:60px;"></a>
+                        <a href="https://www.plazmaburst2.com/?a=&s=7&ac=jonray&id=1501863"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAAA70lEQVR4AY2QQQsBURSF/RRLC9nPiiSAfyAlsGTLWkjJTrJWswIlVrOQpFBSJCXJL3Hcd+m9mUzzdebOmdM9vde4QNExvG0YxsuW/XCIibVPB8/TlstqBQnPhYdjuHB3DBduRCJVkmVKypU6Ei5ciViigCl7a6KJv3QmQuGsLFMynS6RcOFEBIKZk4KcsOcrHQl/IH1U8bh9EHIol68i4RMOKotuF1Izhk/YScw7HciSsLiw/cOs3f6ZQTIJ8ZU2X8bNpjCTVgvqx+OYIoGHuKDrei8aXX8ZNRr4ZFEuTM3rjbgIvDRSUUJTQ5gYLb8BhPPNL20l3sgAAAAASUVORK5CYII=" style="width:40px;height:40px;"></a>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box-shadow card card card-body h-100">
+                    <h5><u>My Experience as a Developer</u></h5>
+                    <hr>
+                    <p>I dont really have any real experience yet but I've made projects on my school about Restaurant and Slay the Dragon game Before, I specialized in CLI code since I dont know anything about GUI yet.</p>
+                    <p>Going a bit off topic, i used to be a map maker or map developer on some games like Plazma Burst 2 and Frozen Throne (Warcraft 3).</p>
+                    <ul class="social-links">
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-md-6">
+                <div class="box-shadow card card card-body h-100">
+                    <h5><u>What I Know</u></h5>
+                    <hr>
+
+                    
+                    {% for x in WIKvar %}
+
+                    <table>
+                        <tr>
+                            <td><p>- {{x.info}}</p></td>
+
+                        </tr>
+                    </table>
+
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <br>
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="box-shadow card card card-body h-100">
+                    <h5><u>How I Learn</u></h5>
+                    <hr>
+                    <p>Trial and Error & Creating simple Prototypes First.</p>
+
+                    <p>Mostly I learn just by searching through Google whenever I want something the code to do but dont know the syntax , and when i do I experiment with it and eventually learn it and use whenever an opportunity comes.</p>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-6">
+                <div class="box-shadow card card card-body h-100">
+                    <h5><u>My Short Term Goals</u></h5>
+                    <hr>
+                    <p>Aside from just creating games or being a developer, I am trying to learn how to draw hoping I can make my own characters for the game i make in the future .</p>
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+
+
+
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="box-shadow card card card-body h-100">
+                    <h3>Address</h3>
+                    
+
+                    {% for x in addressvar %}
+
+                    <table>
+                        <tr>
+                            <td><p>- {{x.address}}</p></td>
+
+                        </tr>
+                    </table>
+
+                    {% endfor %}
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="col-md-6">
+                <div class="box-shadow card card card-body h-100">
+                    <h3>Contact</h3>
+                   
+
+                    {% for x in contactvar %}
+
+                    <table>
+                        <tr>
+                            <td><p>- {{x.Contact}}</p></td>
+
+                        </tr>
+                    </table>
+
+                    {% endfor %}
+
+
+
+                </div>
+
+                
+
+                </div>
+            </div>
+        <br>
+
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="box-shadow card card card-body h-100">
+                    <h3>Education</h3>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--fluent text-xl" width="1em" height="1em" viewBox="0 0 12 12"><path fill="currentColor" d="M5.16 2.189a1.96 1.96 0 0 1 1.68 0l4.874 2.309a.5.5 0 0 1 .008.9l-4.85 2.406a1.96 1.96 0 0 1-1.744 0L1 5.756V8a.5.5 0 0 1-1 0V4.975a.5.5 0 0 1 .286-.477zM2 7.369V9a.5.5 0 0 0 .147.354l.002.003l.023.021l.06.056q.075.07.217.187c.187.153.457.355.794.558C3.913 10.58 4.877 11 6 11s2.088-.42 2.757-.821a6.7 6.7 0 0 0 1.012-.745l.06-.056l.016-.016l.006-.006l.001-.001l.002-.001A.5.5 0 0 0 10 9V7.368L7.316 8.7a2.96 2.96 0 0 1-2.632 0z"></path> </svg>
+                    
+
+                    {% for x in educationvar %}
+
+                    <table>
+                        <tr>
+                            <td><p>- {{x.education}}</p></td>
+
+                        </tr>
+                    </table>
+
+                    {% endfor %}
+
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="box-shadow card card card-body h-100">
+                    <h3>Email</h3>
+                    
+
+                    {% for x in emailvar %}
+
+                    <table>
+                        <tr>
+                            <td><p>- {{x.email}}</p></td>
+
+                        </tr>
+                    </table>
+
+                    {% endfor %}
+
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+
+        </div>
+
+
+
+
+        <br>
+
+        <div class="box-shadow card card card-body h-100  border-info" data-aos-delay="400">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+                
+                <p>
+                    <div class="col-lg-5">
+
+                        <div class="info-wrap">
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Map Location</h3>
+                                    
+                                </div>
+                            </div><!-- End Info Item -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1621.4091100468422!2d120.98894465988157!3d14.859875042108182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDUxJzM1LjciTiAxMjDCsDU5JzIwLjciRQ!5e0!3m2!1sen!2sph!4v1733190376852!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                </p>
+            </div>
+        </div><!-- End Info Item -->
+
+
+
+</body>
+</html>

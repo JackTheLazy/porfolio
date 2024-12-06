@@ -1,0 +1,47 @@
+
+body {
+    background-color: #000000 !important;
+    background-image: url('https://img.freepik.com/premium-vector/dark-concrete-background-with-grunge-effect_278222-9844.jpg?ga=GA1.1.1850696888.1733183772&semt=ais_hybrid');
+}
+
+#profile-wrapper {
+    text-align: center;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+}
+
+.box-shadow {
+    
+    
+    
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 20px 1px #ffffff;
+}
+
+.p {
+
+
+}
